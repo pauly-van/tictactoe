@@ -1,10 +1,46 @@
 <!doctype html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
-</head>
-<body>
-
-<script src="./app.js"></script>
-</body>
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+      <p>Classic board game</p>
+    <section class="interactive">
+      <div id="board">
+          <div class="squares topLeft">
+              <div class="marker"></div>
+          </div>
+          <div class="squares topMid">
+              <div class="marker"></div>
+          </div>
+          <div class="squares topRight">
+              <div class="marker"></div>
+          </div>
+          <div class="squares centerLeft">
+              <div class="marker"></div>
+          </div>
+          <div class="squares centerMid">
+              <div class="marker"></div>
+          </div>
+          <div class="squares centerRight">
+              <div class="marker"></div>
+          </div>
+          <div class="squares bottomLeft">
+              <div class="marker"></div>
+          </div>
+          <div class="squares bottomMid">
+              <div class="marker"></div>
+          </div>
+          <div class="squares bottomRight">
+              <div class="marker"></div>
+          </div>
+      </div>
+      <button id="reset">Reset!</button>
+      <p id="winPrompt"></p>
+    </section>
+    <script src="app.js"></script>
+  </body>
 </html>

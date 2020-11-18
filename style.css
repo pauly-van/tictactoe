@@ -1,0 +1,23 @@
+#board{
+  background-color: black;
+  width:30%;
+  display: grid;
+  padding: 0.1em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+}
+.squares{
+  background-color:lightgrey;
+  margin: 0.1em;
+}
+.marker{
+  font-size: 5em;
+  text-align: center;
+  padding-top: 0.1em;
+}
+p,h1{
+  margin: 1px;
+}
+p{
+  margin-bottom: 1em;
+}
